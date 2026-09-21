@@ -163,38 +163,3 @@ h1:before, .anchor:before {
         height: 175px;
     }
 }
-
-.affiliation-logos {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: .7rem;
-    margin: .15rem 0 1rem;
-
-    a {
-        display: inline-flex;
-        align-items: center;
-        border: 0 !important;
-    }
-
-    img {
-        height: 32px !important;
-        width: auto !important;
-        max-width: 36px !important;
-        object-fit: contain;
-        border-radius: 0 !important;
-        padding: 0 !important;
-        border: 0 !important;
-        box-shadow: none !important;
-    }
-}
-
-.org-logo {
-    height: 1.35em;
-    width: auto;
-    max-height: 1.45em;
-    vertical-align: -0.28em;
-    margin-right: .4em;
-    border-radius: 0;
-    box-shadow: none;
-}
