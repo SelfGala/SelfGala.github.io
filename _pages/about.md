@@ -3,56 +3,87 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am an M.S. student at [Zhejiang University](https://www.zju.edu.cn/english/), advised by [Prof. Zaixing He](https://person.zju.edu.cn/zaixinghe). My research lies at the intersection of **embodied AI**, **vision-language-action models**, and **reinforcement learning**, with a particular interest in post-training methods that enable robots to understand intent and act reliably in complex environments.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Before beginning my master's studies, I studied Mechanical Engineering at Zhejiang University and spent an academic year as an exchange student at the University of Illinois Urbana-Champaign. My recent work spans long-horizon robot manipulation, category-level 6D pose estimation, and vision-guided agile quadrupedal control.
 
+<div class="research-tags" aria-label="Research interests">
+  <span>Embodied AI</span><span>Vision-Language-Action</span><span>Reinforcement Learning</span><span>Robot Learning</span>
+</div>
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+- **Sep. 2026** — Our work **HINT** was released on arXiv.
+- **Aug. 2026** — Our work **Spatiotemporal Agility** was released on arXiv.
+- **2026** — Our work **Flow6D** was published in *IEEE Robotics and Automation Letters*.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Publications
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<div class="publication-card" markdown="1">
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+### [HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+Mingyu Mei, Haojie Xu, Shihao Jin, **Zibo Dai**, Qihao Cheng, Zhengrui Lv, Hongjie Fang, Shirun Tang, Guang Chen, Xinyue Zhao, Huiliang Shen, Zaixing He
+
+*arXiv, 2026* · [Paper](https://arxiv.org/abs/2609.02653) · [Project](https://robot-hint.github.io/)
+
+An agentic framework that maintains human intent across long-horizon manipulation by combining sparse semantic reasoning with multi-view grounding and visual tracking.
 </div>
+
+<div class="publication-card" markdown="1">
+
+### [Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception](https://arxiv.org/abs/2608.06907)
+
+Yidong Zhu, **Zibo Dai**, Tongning Zhang, Leixin Chang, Hua Chen
+
+*arXiv, 2026* · [Paper](https://arxiv.org/abs/2608.06907)
+
+An integrated vision and reinforcement learning system for dynamic quadrupedal interception, using direct position-and-time-conditioned locomotion for real-time ball catching.
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class="publication-card" markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+### [Flow6D: Discrete-to-Continuous Flow Matching for Efficient and Accurate Category-Level 6D Pose Estimation](https://arxiv.org/abs/2606.23293)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+Mingyu Mei, Li Zhang, **Zibo Dai**, Han Sun, Xinyue Zhao, Huiliang Shen, Zaixing He
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+*IEEE Robotics and Automation Letters, 2026* · [Paper](https://arxiv.org/abs/2606.23293) · [Project](https://flow6d.github.io/)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+A hierarchical flow-matching approach that localizes a discrete pose region before continuous refinement, enabling accurate real-time pose estimation for rigid and articulated objects.
+</div>
+
+# 🔬 Research Experience
+
+### Robot Vision and Intelligence Lab, Zhejiang University
+
+**Graduate Researcher** · 2026–Present
+
+Working on vision-language-action models and reinforcement learning post-training for long-horizon robot manipulation, advised by [Prof. Zaixing He](https://person.zju.edu.cn/zaixinghe).
+
+### Physical Intelligence Lab, ZJU-UIUC Institute
+
+**Undergraduate Researcher** · 2025–2026
+
+Worked on reinforcement learning and vision-guided control for agile quadrupedal robots, including a closed-loop system for dynamic ball interception.
+
+# 🎓 Education
+
+### Zhejiang University
+
+**M.S. Student** · 2026–Present
+Mechanical Engineering · Advisor: [Prof. Zaixing He](https://person.zju.edu.cn/zaixinghe)
+
+### Zhejiang University
+
+**B.S. in Mechanical Engineering** · 2022–2026
+
+### University of Illinois Urbana-Champaign
+
+**Exchange Student in Mechanical Engineering** · 2024–2025
