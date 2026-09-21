@@ -8,9 +8,16 @@ redirect_from:
   - /about.html
 ---
 
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
 <span class='anchor' id='about-me'></span>
 
-I am an M.S. student at [Zhejiang University](https://www.zju.edu.cn/english/), advised by [Prof. Zaixing He](https://person.zju.edu.cn/zaixinghe). My research lies at the intersection of **embodied AI**, **vision-language-action models**, and **reinforcement learning**, with a particular interest in post-training methods that enable robots to understand intent and act reliably in complex environments.
+I am an M.S. student at [Zhejiang University](https://www.zju.edu.cn/english/), advised by [Prof. Zaixing He](https://person.zju.edu.cn/zaixinghe). My research lies at the intersection of **embodied AI**, **vision-language-action models**, and **reinforcement learning**, with a particular interest in post-training methods that enable robots to understand intent and act reliably in complex environments. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=6PAaBo0AAAAJ) (<a href='https://scholar.google.com/citations?user=6PAaBo0AAAAJ'>citations: <strong><span id='total_cit'></span></strong></a>).
 
 Before beginning my master's studies, I studied Mechanical Engineering at Zhejiang University and spent an academic year as an exchange student at the University of Illinois Urbana-Champaign. My recent work spans long-horizon robot manipulation, category-level 6D pose estimation, and vision-guided agile quadrupedal control.
 
@@ -26,37 +33,37 @@ Before beginning my master's studies, I studied Mechanical Engineering at Zhejia
 
 # 📝 Publications
 
-<div class="publication-card" markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/HINT.png' alt="HINT architecture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-### [HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653)
+[HINT: Human-Intent Inception for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2609.02653)
 
 Mingyu Mei, Haojie Xu, Shihao Jin, **Zibo Dai**, Qihao Cheng, Zhengrui Lv, Hongjie Fang, Shirun Tang, Guang Chen, Xinyue Zhao, Huiliang Shen, Zaixing He
 
-*arXiv, 2026* · [Paper](https://arxiv.org/abs/2609.02653) · [Project](https://robot-hint.github.io/)
-
-An agentic framework that maintains human intent across long-horizon manipulation by combining sparse semantic reasoning with multi-view grounding and visual tracking.
+*arXiv, 2026* · [**Paper**](https://arxiv.org/abs/2609.02653) · [**Project**](https://robot-hint.github.io/)
+</div>
 </div>
 
-<div class="publication-card" markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/spatial.png' alt="Spatiotemporal Agility architecture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-### [Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception](https://arxiv.org/abs/2608.06907)
+[Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception](https://arxiv.org/abs/2608.06907)
 
 Yidong Zhu, **Zibo Dai**, Tongning Zhang, Leixin Chang, Hua Chen
 
-*arXiv, 2026* · [Paper](https://arxiv.org/abs/2608.06907)
-
-An integrated vision and reinforcement learning system for dynamic quadrupedal interception, using direct position-and-time-conditioned locomotion for real-time ball catching.
+*arXiv, 2026* · [**Paper**](https://arxiv.org/abs/2608.06907)
+</div>
 </div>
 
-<div class="publication-card" markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2026</div><img src='images/flow6d.png' alt="Flow6D architecture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-### [Flow6D: Discrete-to-Continuous Flow Matching for Efficient and Accurate Category-Level 6D Pose Estimation](https://arxiv.org/abs/2606.23293)
+[Flow6D: Discrete-to-Continuous Flow Matching for Efficient and Accurate Category-Level 6D Pose Estimation](https://arxiv.org/abs/2606.23293)
 
 Mingyu Mei, Li Zhang, **Zibo Dai**, Han Sun, Xinyue Zhao, Huiliang Shen, Zaixing He
 
-*IEEE Robotics and Automation Letters, 2026* · [Paper](https://arxiv.org/abs/2606.23293) · [Project](https://flow6d.github.io/)
-
-A hierarchical flow-matching approach that localizes a discrete pose region before continuous refinement, enabling accurate real-time pose estimation for rigid and articulated objects.
+*IEEE Robotics and Automation Letters, 2026* · [**Paper**](https://arxiv.org/abs/2606.23293) · [**Project**](https://flow6d.github.io/)
+</div>
 </div>
 
 # 🔬 Research Experience
