@@ -6,8 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zibo Dai"
-description              : "M.S. student at Zhejiang University working on embodied AI, vision-language-action models, and reinforcement learning."
+title                    : "Zibo Dai (代梓搏)"
+description              : "M.S. student at Zhejiang University working on VLA, and RL post training."
+url                      : "https://selfgala.github.io"
+baseurl                  : ""
 repository               : "SelfGala/SelfGala.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zibo Dai"
+  name             : "Zibo Dai (代梓搏)"
   avatar           : "images/profile.jpg"
   bio              : "M.S. Student at Zhejiang University"
   location         : "Hangzhou, China"
