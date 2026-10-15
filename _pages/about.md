@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an M.S. student at [Zhejiang University](https://www.zju.edu.cn/english/), advised by [Prof. Zaixing He](https://person.zju.edu.cn/zaixinghe). My research lies at the **vision-language-action models**, and **reinforcement learning**, with a particular interest in post-training methods that enable robots to understand intent and act reliably in complex environments. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=6PAaBo0AAAAJ) (<a href='https://scholar.google.com/citations?user=6PAaBo0AAAAJ'></a>).
+I am an M.S. student at [Zhejiang University](https://www.zju.edu.cn/english/), advised by [Prof. Zaixing He](https://person.zju.edu.cn/zaixinghe). My research lies at the intersection of **vision-language-action models** and **reinforcement learning**, with a particular interest in post-training methods that enable robots to understand intent and act reliably in complex environments. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=6PAaBo0AAAAJ).
 
-Before beginning my master's studies, I studied Mechanical Engineering at Zhejiang University and spent an academic year as an exchange student at the University of Illinois Urbana-Champaign. My recent work spans Robotic locomotion, manipulation-VLA, and RL post training.
+Before beginning my master's studies, I studied Mechanical Engineering at [Zhejiang University](https://www.zju.edu.cn/english/) and spent an academic year as an exchange student at the [University of Illinois Urbana-Champaign](https://illinois.edu/). My recent work spans Robotic locomotion, manipulation-VLA, and RL post training.
 
 <div class="research-tags" aria-label="Research interests">
   <span>Embodied AI</span><span>Vision-Language-Action</span><span>Reinforcement Learning</span><span>Robot Learning</span>
