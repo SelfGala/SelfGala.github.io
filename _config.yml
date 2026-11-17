@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zibo Dai (代梓搏)"
-description              : "M.S. student at Zhejiang University working on VLA, and RL post training."
+description              : "Ph.D. student at Zhejiang University working on VLA, and RL post training."
 url                      : "https://selfgala.github.io"
 baseurl                  : ""
 repository               : "SelfGala/SelfGala.github.io"
@@ -25,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zibo Dai (代梓搏)"
   avatar           : "images/profile.jpg"
-  bio              : "M.S. Student at Zhejiang University"
+  bio              : "Ph.D. Student at Zhejiang University"
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   pubmed           : 
