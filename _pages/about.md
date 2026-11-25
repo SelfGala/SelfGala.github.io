@@ -25,11 +25,11 @@ Before beginning my doctoral studies, I studied Mechanical Engineering at [Zheji
   <span>Embodied AI</span><span>Vision-Language-Action</span><span>Reinforcement Learning</span><span>Robot Learning</span>
 </div>
 
-# 🔥 News
+# 📖 News
 
-- **2026.09:** Our work **HINT** was released on arXiv.
-- **2026.08:** Our work **Spatiotemporal Agility** was released on arXiv.
-- **2026.06:** Our work **Flow6D** was accepted in *IEEE Robotics and Automation Letters*.
+- **2026.09:** **HINT** was released on arXiv.
+- **2026.08:** **Spatiotemporal Agility** was released on arXiv.
+- **2026.06:** **Flow6D** was accepted in *IEEE Robotics and Automation Letters*.
 
 # 📝 Publications
 
